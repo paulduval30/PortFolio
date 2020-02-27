@@ -1,0 +1,136 @@
+
+/** font-family: 'Ubuntu',sans-serif ;*/
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: #F2EEEB;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/**
+Header
+ */
+
+.header{
+    height: 70px;
+    line-height: 70px;
+    background: #E89958;
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    color: white;
+    margin-right: 20px;
+
+}
+
+.menu a:hover{
+    color: #F2EEEB ;
+}
+
+
+/**
+Banner
+ */
+.baner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.imgModal{
+    width: 100%;
+}
+.inner-banner{
+    padding-top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: #000000;
+    text-shadow: 1px 1px 20px;
+}
+
+.inner-banner .btn-custom{
+    background-color: #F2EEEB;
+    color: black;
+}
+
+.inner-banner .btn-custom:hover{
+    background-color: #E89958;
+    color: #F2EEEB;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.baner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    min-width: 500px;
+    height: 100vh;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.about-me{
+    text-align: center;
+}
+
+.about h2, .potfolio h2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+article img{
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.footer{
+
+}
+
+.potfolio{
+
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background: #FFB16E;
+}
+
+.center {
+    text-align: center;
+}
+
