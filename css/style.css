@@ -47,6 +47,9 @@ Header
     color: #F2EEEB ;
 }
 
+.opac-hover img:hover{
+    opacity: 0.7;
+}
 
 /**
 Banner

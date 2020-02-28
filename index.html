@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lacquer|Ubuntu&display=swap" rel="stylesheet">
     <title>Boostrap website index</title>
 </head>
-<body>
+<body class="" data-spy="scroll" data-target=".navbar">
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
     <div class="container">
@@ -51,7 +51,7 @@
     <div class="ban">
         <div class="inner-banner">
             <h1>Bienvenue sur mon portfolio</h1>
-            <button class="btn btn-custom" name="button">Contactez moi !</button>
+            <a class="scrollLink" href="#contact"><button class="btn btn-custom scrollLink" name="button">Contactez moi !</button></a>
         </div>
     </div>
 </section>
@@ -63,7 +63,7 @@
                 <h2>A propos de moi</h2>
                 <h3 class="center">Qui suis-je ?</h3>
                 <hr class="separator">
-                <p class="about-me">
+                <p class="about-me lead">
                     Passionné par les Nouvelles Technologies depuis plusieurs années et
                     de nature curieux, j’aime constamment apprendre, c’est pour cela
                     que l’informatique, domaine en perpétuelle évolution, me plait tout
@@ -92,29 +92,29 @@
                 <h3>Experience</h3>
                     <ul>
                         <li>
-                            2019 - En cours : Developpement d'outils informatique,<br>
+                            Depuis 2019 : Developpement d'outils informatiques,<br>
                             Renault Cléon, Cléon,<br>
                             Alternance de 12 mois pour le développement d'outils de gestion de données
                         </li><br>
                         <li>
-                            2019 et 2018 : Dévelopement d’outils informatiques,<br>
+                            2018 - 2019 : Dévelopement d’outils informatiques,<br>
                             Carrier Transicold, Franqueville-Saint Pierre, <br>
-                            stages 12 semaines en 2019 et 10 semaines en 2018 – Poursuite missions contrat
-                            intérim 2 mois été 2018,<br>
-                            <strong>Gestion de projets, conduite de réunion, développement d’outils</strong>
+                            stages de 12 semaines en 2019 et 10 de semaines en 2018 – Poursuite de missions en contrat
+                            intérim de 2 mois pendant l'été 2018,<br>
+                            <strong>Gestion de projets, conduite de réunions, développement d’outils</strong>
                         </li><br>
                         <li>
                             Depuis 2018 : Contrat étudiant Agent de magasin polyvalent<br> dimanche et vacances, <br>
                             Biocoop Bois Guillaume
                         </li><br>
                         <li>
-                            2017 – 2016: Encadrement de jeunes enfants ( 3 à 5 ans),<br>
+                            2016 – 2017: Encadrement de jeunes enfants ( 3 à 5 ans),<br>
                             <strong>Sens des responsabilités, cohésion</strong>,<br>
-                            deux mois d’expérience / Centre aéré,<br>
+                            2 mois d’expérience / Centre aéré,<br>
                             Municipalité d’Amfreville la Mivoie
                         </li><br>
                         <li>
-                            2016-2014 : Bénévole / collecte de 20 000 euros pour le BURKINA FASO,<br>
+                            2014-2016 : Bénévole / collecte de 20 000 euros pour le BURKINA FASO,<br>
                             Association Humanitaire Circ a Ouaga
                         </li>
                 </ul>
@@ -150,29 +150,50 @@
                            <ul>
                                <li>
                                    <strong>Java</strong> : Programmation orientée objet. Utilisation principalement du <strong>pattern MVC</strong>.
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" style="width: 80%" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
                                </li><br>
                                <li>
-                                   Base du <strong>C</strong> pour l’administration de linux.
+                                   Créations de <strong>bases de données</strong>, requêtes, fonctions, triggers (PostgreSQL, Oracle, Access)
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" style="width: 70%" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
                                </li><br>
                                <li>
-                                   Créations <strong>bases de données</strong>, requêtes, fonctions, triggers (PostgreSQL, Oracle, Access)
+                                   <strong>Python</strong>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" style="width: 60%" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
                                </li><br>
                                <li>
                                    Créations de sites internet en <strong>HTML, Javascript, CSS et PHP</strong>.<br>
                                    Utilisation de framework (Bootstrap)<br>
                                    Administration de sites internet (contenu)
-                               </li><br>
-                               <li>
-                                   Création de routes réseaux entre différents routeurs et machines.
-                               </li><br>
-                               <li>
-                                   Organisation de données à l’aide du <strong>XML et requêtes XSL</strong>
-                               </li><br>
-                               <li>
-                                   <strong>Python</strong>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="55" style="width: 55%" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
                                </li><br>
                                <li>
                                    Développement web dans l'environnement Office 360 (SharePoint) et son API Javascript
+                               </li><br>
+                               <li>
+                                   Organisation de données à l’aide du <strong>XML et requêtes XSL</strong>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" style="width: 25%" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
+                               </li><br>
+                               <li>
+                                   Création de routes réseaux entre différents routeurs et machines.
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" style="width: 20%" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
+                               </li><br>
+                               <li>
+                                   Base du <strong>C</strong> pour l’administration de linux.
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" style="width: 20%" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
                                </li>
                            </ul>
                        </div>
@@ -204,41 +225,41 @@
         <div class="row">
             <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                 <h3>Optical Character Recognition</h3>
-                <img src="img/OCR.jpg">
+                <img class="rounded opac-hover" data-toggle="modal" data-target="#ocrModal" src="img/OCR.jpg">
             </article>
             <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                 <h3>Labyrinthe</h3>
-                <img data-toggle="modal" data-target="#MazeModal" src="img/Maze.jpg">
+                <img class="rounded opac-hover" data-toggle="modal" data-target="#MazeModal" src="img/Maze.jpg">
             </article>
         </div>
         <div class="row">
         <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                 <h3>Another Flappy Bird</h3>
-                <img src="img/Flappy.jpg">
+                <img class="rounded opac-hover" src="img/Flappy.jpg">
             </article>
             <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                 <h3>Sausage Jump</h3>
-                <img src="img/Sausage.jpg">
+                <img class="rounded opac-hover" src="img/Sausage.jpg">
             </article>
         </div>
         <div class="row">
             <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                 <h3>Le jeu de la vie</h3>
-                <img  data-toggle="modal" data-target="#lifeModal" src="img/gameOfLife.jpg">
+                <img class="rounded opac-hover"  data-toggle="modal" data-target="#lifeModal" src="img/gameOfLife.jpg">
             </article>
             <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                 <h3>Legends Board Game</h3>
-                <img src="img/legends.jpg">
+                <img class="rounded opac-hover" src="img/legends.jpg">
             </article>
         </div>
         <div class="row">
         <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
             <h3>Dessin 3d Isométrique</h3>
-            <img src="img/iso.jpg">
+            <img class="rounded opac-hover" src="img/iso.jpg">
         </article>
             <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
             <h3>Bataille Navale en reseau</h3>
-            <img src="img/BatailleNavale.jpg">
+            <img class="rounded opac-hover" src="img/BatailleNavale.jpg">
         </article>
         </div>
     </div>
@@ -261,31 +282,31 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="md-form">
-                                    <input type="text" id="name" name="name" class="form-control">
                                     <label for="name" class="">Votre nom</label>
+                                    <input type="text" id="name" name="name" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="md-form">
-                                    <input type="text" id="email" name="email" class="form-control">
                                     <label for="email" class="">Adresse mail</label>
+                                    <input type="text" id="email" name="email" class="form-control">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form">
-                                    <input type="text" id="subject" name="subject" class="form-control">
                                     <label for="subject" class="">Sujet</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form">
+                                    <label for="message">Message</label>
                                     <textarea type="text" id="message" name="message" rows="2"
                                               class="form-control md-textarea"></textarea>
-                                    <label for="message">Message</label>
                                 </div>
                             </div>
                         </div>
@@ -317,6 +338,34 @@
                     Le jeu de la vie est un jeu au sens mathématique plutôt que ludique. Bien que n'étant pas décrit par la théorie des jeux, certains le décrivent comme un « jeu à zéro joueur ».<br>
                     <a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie"> En savoir plus ...</a><br>
                     <a href="https://github.com/paulduval30/GameOfLife">Mon projet...</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ocrModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle3">Le jeu de la vie</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid" data-toggle="modal" data-target="#lifeModal" src="img/OCR.jpg">
+                    La reconnaissance optique de caractères (ROC), en anglais optical character recognition (OCR),
+                    ou océrisation, désigne les procédés informatiques pour la traduction d'images de textes imprimés
+                    ou dactylographiés en fichiers de texte.<br>
+                    Dans ce projet, l'utilisateur dessine sur une grille des caractère. Au début, le programme ne sait pas
+                    les reconnaitre. Au fur et à mesure que l'utilisateur lui indique ce qu'il a dessiné il va trouver
+                    de mieux en mieux. Avec une base de donnée assez large, cet algorithme peut reconnaitre la lettre
+                    dessiné avec une précision d'environ 90%.
+                    <a href="https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res"> En savoir plus ...</a><br>
+                    <a href="https://github.com/paulduval30/OCR">Mon projet...</a>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -372,6 +421,7 @@
             event.preventDefault();
             $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
         });
+
     });
 </script>
 </body>
